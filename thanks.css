@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Neue-light;
+    src: url(fonts/NeueHaasDisplayLight.ttf);
+    font-weight: 300;
+}
+.title{
+    text-align: center;
+        font-family: 'Neue-light', sans-serif;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        padding: 15px;
+        border: solid 1px rgba(85, 92, 85, 0.867);
+        background: #ffd9f7;
+        height: 40%;
+        width: 80%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+}
+input{
+    margin-top: 20px;
+    font-size: 30px;
+    width: 130px;
+    
+}
+
+@media only screen and (min-width: 768) {
+    .title{
+        flex-direction: row;
+        height: 40%;
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1200) {
+    .title{
+        flex-direction: row;
+        height: 50%;
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1200) {
+    .title{
+        flex-direction: row;
+        height: 60%;
+        width: 50%;
+    }
+}
